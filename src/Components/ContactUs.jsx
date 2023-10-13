@@ -12,16 +12,16 @@ const ContactUs = () => {
         <div className=" rounded-lg p-4 flex items-center justify-center flex-col h-full w-[400px]">
           <FaAddressCard fontSize={"50px"} />
           <p className="font-semibold">Address</p>
-          <p>7-11-54/2, pragathi nagar Kothagudem, Telangana</p>
+          <p>Sujathanagar, Kothagudem, Telangana</p>
         </div>
         <div className=" rounded-lg p-4 flex items-center justify-center flex-col h-full w-[400px]">
           <BiMobileAlt fontSize={"50px"} />
           <p className="font-semibold">Phone & E-mail</p>
           <p>
-            <span className="font-semibold">Contact:</span> 456456465
+            <span className="font-semibold">Contact:</span> 9347393345
           </p>
           <p>
-            <span className="font-semibold">Email:</span> blabla@gmail.com
+            <span className="font-semibold">Email:</span> meghanaconstructions@gmail.com
           </p>
         </div>
         <div className=" rounded-lg p-4 flex items-center justify-center flex-col h-full w-[400px]">
