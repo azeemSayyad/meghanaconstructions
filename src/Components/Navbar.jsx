@@ -44,12 +44,12 @@ const Navbar = () => {
         </div>
 
 
-    <div className='md:hidden z-40 mr-3' onClick={()=>setIsMenu(!isMenu)}>
+    <div className='md:hidden z-40 mr-4' onClick={()=>setIsMenu(!isMenu)}>
         {isMenu? <FaTimes fontSize={"30px"} style={{color:'white'}}/> : <FaBars fontSize={"30px"} style={{color:'white'}}/>}
     </div>
 
     {isMenu && (
-        <div onDrag={()=>setIsMenu(false)} onClick={()=>setIsMenu(!isMenu)} className='flex flex-col justify-center items-center absolute top-0 left-0 h-full w-full bg-black z-30 '>
+        <div onDrag={()=>setIsMenu(false)} onClick={()=>setIsMenu(!isMenu)} className='flex flex-col justify-center items-center absolute top-0 left-0 h-full w-full bg-[#18d8cc] z-30 '>
             <div className='px-4 py-6 text-2xl cursor-pointer capitalize font-medium text-gray-500 hover:text-white hover:scale-105 duration-200'>Home</div>
             <div className='px-4 py-6 text-2xl cursor-pointer capitalize font-medium text-gray-500 hover:text-white hover:scale-105 duration-200'>Projects</div>
             <div className='px-4 py-6 text-2xl cursor-pointer capitalize font-medium text-gray-500 hover:text-white hover:scale-105 duration-200'>About Us</div>
